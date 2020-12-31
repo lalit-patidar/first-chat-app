@@ -34,12 +34,7 @@ function autoScroll() {
     // apply condition to set scroll at bottom by default
     if (scrollHeight - newMessageHight <= containerHeight) {
         $userMessage.scrollTop = $userMessage.scrollHeight
-    }
-
-    console.log(scrollHeight)
-    console.log(containerHeight)
-    console.log(scrollHeight - newMessageHight <= containerHeight)
-    
+    }    
 }
 
 socket.on('locationMessage', (location) => {
