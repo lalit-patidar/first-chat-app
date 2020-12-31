@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(48, 43, 43);
+}
+
+.join-form-box{
+    background:  rgb(236, 232, 232);;
+    margin: 15rem auto;
+    padding: 1rem;
+    width: 25%;
+}
+
+.join-form-box > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+form > label{
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+form > input {
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+
+}
+
+form > button{
+    border: none;
+    background: rgb(90, 200, 204);
+    outline: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+
+}
